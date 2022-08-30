@@ -9,7 +9,7 @@ package github;
  *
  * @author Suporte
  */
-public class pessoa {
+public class Pessoa {
     
     String nome;
     String corCabelo;
