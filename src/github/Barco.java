@@ -16,6 +16,15 @@ public class Barco {
     int tamanho;
     int num;
     
+    void ImprimeDadosBarco(){
+          
+    System.out.println("--------------Barco----------------");
+     System.out.println ("Nome: "+nome);
+    System.out.println("Cor: "+cor);
+    System.out.println("Tamanho: "+tamanho);
+    System.out.println("Número: "+num);
+    }
+    
     public String getNome(){
         return nome;
     }

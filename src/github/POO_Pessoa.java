@@ -20,10 +20,13 @@ public class POO_Pessoa {
     novaPessoa.setIdade(20);
     
     
-    System.out.println ("Tipo: "+novaPessoa.getNome());
+    /*System.out.println ("Tipo: "+novaPessoa.getNome());
     System.out.println("Cor: "+novaPessoa.getCorCabelo());
     System.out.println("Placa: "+novaPessoa.getBiotipo());
     System.out.println("Número da placa: "+novaPessoa.getIdade());
+*/
+    
+    novaPessoa.ImprimeDadosPessoa();
     }
     
 }

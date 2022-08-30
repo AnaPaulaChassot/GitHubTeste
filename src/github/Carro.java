@@ -12,12 +12,22 @@ package github;
  * @author Suporte
  */
 public class Carro {
+   
 
     String tipo;
     String cor;
     String placa;
     int numPlaca;
-
+    
+void ImprimeDadosCarro(){
+    
+    System.out.println("--------------Carro----------------");
+     System.out.println ("Tipo: "+tipo);
+    System.out.println("Cor: "+cor);
+    System.out.println("Placa: "+placa);
+    System.out.println("Número da placa: "+numPlaca);
+}
+    
     public String getTipo() {
         return tipo;
     }
@@ -49,4 +59,5 @@ public class Carro {
    public void setNumPlaca (int numPlaca){
         this.numPlaca=numPlaca;
     }
+   
 } 
