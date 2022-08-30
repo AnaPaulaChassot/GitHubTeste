@@ -11,10 +11,10 @@ package github;
  */
 public class POO_Carro {
   public static void main(String[] args) {
-        
+  
     
 
-    Carro meuCarro = new Carro();
+   Carro meuCarro = new Carro();
 
     meuCarro.setTipo ("Gol");
     meuCarro.setCor ("Preto");
@@ -22,13 +22,13 @@ public class POO_Carro {
     meuCarro.setNumPlaca(1234);
     
     
-    /*System.out.println ("Tipo: "+meuCarro.getTipo());
+  /*  System.out.println ("Tipo: "+meuCarro.getTipo());
     System.out.println("Cor: "+meuCarro.getCor());
     System.out.println("Placa: "+meuCarro.getPlaca());
     System.out.println("Número da placa: "+meuCarro.getNumPlaca());
     }
-*/
-    
+
+    */
     meuCarro.ImprimeDadosCarro();
     
     
